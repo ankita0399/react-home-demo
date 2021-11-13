@@ -13,11 +13,11 @@ export default function App() {
   return (
     <>
       <Headers />
-      <Categories />
-      <ProductsSection />
+      <Discount />
       <Banner />
       <Trend />
-      <Discount />
+      <Categories />
+      <ProductsSection />
       <Services />
       <Footer />
     </>
