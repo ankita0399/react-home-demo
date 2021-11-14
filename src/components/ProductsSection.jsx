@@ -74,7 +74,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 59.0</div>
+                <div class="product__price">&#8377; 59.0</div>
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 49.0</div>
+                <div class="product__price">&#8377; 49.0</div>
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 59.0</div>
+                <div class="product__price">&#8377; 59.0</div>
               </div>
             </div>
           </div>
@@ -204,7 +204,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 59.0</div>
+                <div class="product__price">&#8377; 59.0</div>
               </div>
             </div>
           </div>
@@ -247,7 +247,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 59.0</div>
+                <div class="product__price">&#8377; 59.0</div>
               </div>
             </div>
           </div>
@@ -292,7 +292,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="product__price">
-                  $ 49.0 <span>$ 59.0</span>
+                  &#8377; 49.0 <span>&#8377; 59.0</span>
                 </div>
               </div>
             </div>
@@ -336,7 +336,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
-                <div class="product__price">$ 59.0</div>
+                <div class="product__price">&#8377; 59.0</div>
               </div>
             </div>
           </div>
@@ -381,7 +381,7 @@ const ProductSection = (props) => {
                   <i class="fa fa-star"></i>
                 </div>
                 <div class="product__price">
-                  $ 49.0 <span>$ 59.0</span>
+                  &#8377; 49.0 <span>&#8377; 59.0</span>
                 </div>
               </div>
             </div>
