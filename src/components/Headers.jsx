@@ -61,20 +61,20 @@ const Headers = (props) => {
 
   return (
     <>
-      <header class="header">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xl-3 col-lg-2">
-              <div class="header__logo">
+      <header className="header">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-3 col-lg-2">
+              <div className="header__logo">
                 <a href="./index.html">
-                  <img src="./logo.png" alt="The Classic Ladies" />
+                  <img className="logo" src="./tcl.png" alt="The Classic Ladies" />
                 </a>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-7">
-              {/* <nav class="header__menu">
+            <div className="col-xl-6 col-lg-7">
+              {/* <nav className="header__menu">
                 <ul>
-                  <li class="active">
+                  <li className="active">
                     <a href="./index.html">Home</a>
                   </li>
                   <li>
@@ -88,7 +88,7 @@ const Headers = (props) => {
                   </li>
                   <li>
                     <a href="#">Pages</a>
-                    <ul class="dropdown">
+                    <ul className="dropdown">
                       <li>
                         <a href="./product-details.html">Product Details</a>
                       </li>
@@ -112,7 +112,7 @@ const Headers = (props) => {
                 </ul>
               </nav> */}
               <div className="searchBarSection">
-                <div class="searchBar">
+                <div className="searchBar">
                   <input
                     className="input"
                     onChange={(e) => {
@@ -147,34 +147,28 @@ const Headers = (props) => {
                 </div> */}
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="header__right">
-                <div class="header__right__auth">
+            <div className="col-lg-3">
+              <div className="header__right">
+                <div className="header__right__auth">
                   <a href="#">Login</a>
                   <a href="#">Register</a>
                 </div>
-                <ul class="header__right__widget">
+                <ul className="header__right__widget">
                   <li>
-                    <span class="icon_search search-switch"></span>
+                    <span className="icon_search search-switch"></span>
                   </li>
                   <li>
                     <a href="#">
-                      <span class="icon_heart_alt"></span>
-                      <div class="tip">2</div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <span class="icon_bag_alt"></span>
-                      <div class="tip">2</div>
+                      <span className="fas fa-shopping-cart"></span>
+                      <div className="tip">2</div>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="canvas__open">
-            <i class="fa fa-bars"></i>
+          <div className="canvas__open">
+            <i className="fa fa-bars"></i>
           </div>
         </div>
       </header>

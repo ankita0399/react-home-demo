@@ -326,6 +326,11 @@ ol {
   padding: 26px 0;
 }
 
+.logo {
+  max-width: 60px;
+  max-height: 60px;
+}
+
 .header__logo a {
   display: inline-block;
 }
